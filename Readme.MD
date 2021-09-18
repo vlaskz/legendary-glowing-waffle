@@ -4,3 +4,4 @@
 
 - Converters have a default implementation of BaseConverter from/to python/json
 - Signals have an implementation of request_finished signal (something like the observer[an event-based approach] pattern)
+- WSGIMiddlewares contains an implementation of a 'HTTP-X-Forwarded-For' filter-based Flask extension to simulate a reverse proxy like Nginx.
